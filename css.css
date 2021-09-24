@@ -108,7 +108,23 @@ p {
     font-size: 20px;
     margin-top: 30%;
 }
-
+@media only screen and (max-width: 428px) {
+ .bg {
+    background-image: url(bakgrunn.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 13%;
+    padding-top: 15%;
+}   
+    p {
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50%;
+}
+    
 
 @media only screen and (max-width: 414px) {
  .bg {
