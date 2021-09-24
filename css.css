@@ -64,13 +64,13 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 20%;
+    padding-left: 15%;
     padding-top: 10%;
 }
     p {
     font-family: 'Fredericka the Great', cursive;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     margin-top: 10%;
     }}
 @media only screen and (max-width: 1024px) {
