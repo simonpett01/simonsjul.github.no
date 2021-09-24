@@ -56,27 +56,22 @@ p {
     width: 10px;
     height: 10px;
   }
-@media only screen and (min-width: 1919px){
+@media only screen and (max-width: 1920px) {
  .bg {
     background-image: url(bakgrunn.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 24%;
+    padding-left: 20%;
     padding-top: 10%;
-}
-    h1 {
-        font-size: 100px;
-    }
 }
     p {
     font-family: 'Fredericka the Great', cursive;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     margin-top: 10%;
     }}
-
 @media only screen and (max-width: 1024px) {
  .bg {
     background-image: url(bakgrunn.jpg);
@@ -143,7 +138,7 @@ p {
     font-size: 30px;
     margin-top: 30%;
 }    
-    
+ 
 
 @media only screen and (max-width: 768px) {
  .bg {
@@ -279,3 +274,4 @@ p {
     font-size: 70%;
     margin-top: 50%;
 }
+    
