@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.bg {
+    background-image: url(bakgrunn.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 25%;
+    padding-top: 15%;
+}
+
+p {
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+
+}
+#demo {
+    float: left;
+    padding-right:2%;
+}
+
+#demo1 {
+    float: left;
+    padding-right:2%;
+}
+#demo2 {
+    float: left;
+    padding-right:2%;
+}
+#demo3 {
+    float: left;
+    padding-right:2%;
+}
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+  }
+
+  .snowflake {
+    position: fixed;
+    background-color: #CCC;
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
