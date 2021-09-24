@@ -63,18 +63,13 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-<<<<<<< HEAD
-    padding-left: 15%;
+    padding-left: 24%;
     padding-top: 10%;
 }
     h1 {
         font-size: 100px;
     }
-=======
-    padding-left: 23%;
-    padding-top: 10%;
 }
->>>>>>> parent of 1a8d718 (tv kopatibel)
     p {
     font-family: 'Fredericka the Great', cursive;
     text-align: center;
