@@ -12,14 +12,14 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 27%;
-    padding-top: 1%;
+    padding-top: 10%;
 }
 
 p {
     font-family: 'Fredericka the Great', cursive;
     text-align: center;
     font-size: 30px;
-    margin-top: 0px;
+    margin-top: 10px;
 
 }
 
