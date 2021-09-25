@@ -72,6 +72,25 @@ p {
     font-size: 60px;
     margin-top: 10%;
     }}
+
+@media only screen and (max-width: 1280px) {
+ .bg {
+    background-image: url(bakgrunn.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 3.2%;
+    padding-top: 10%;
+}
+    p {
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 10%;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
  .bg {
     background-image: url(bakgrunn.jpg);
@@ -85,8 +104,9 @@ p {
     p {
     font-family: 'Fredericka the Great', cursive;
     text-align: center;
-    font-size: 40px;
+    font-size: 10px;
     margin-top: 30%;
+}
 }
 @media only screen and (max-width: 884px) {
  .bg {
@@ -95,7 +115,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 10%;
+    padding-left: 15%;
     padding-top: 10%;
 }   
     p {
@@ -103,42 +123,8 @@ p {
     text-align: center;
     font-size: 30px;
     margin-top: 30%;
-} 
-    
-@media only screen and (max-width: 834px) {
- .bg {
-    background-image: url(bakgrunn.jpg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-left: 10%;
-    padding-top: 10%;
-}   
-    p {
-    font-family: 'Fredericka the Great', cursive;
-    text-align: center;
-    font-size: 30px;
-    margin-top: 30%;
-}       
-    
-@media only screen and (max-width: 820px) {
- .bg {
-    background-image: url(bakgrunn.jpg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-left: 10%;
-    padding-top: 10%;
-}   
-    p {
-    font-family: 'Fredericka the Great', cursive;
-    text-align: center;
-    font-size: 30px;
-    margin-top: 30%;
-}    
- 
+}
+}
 
 @media only screen and (max-width: 768px) {
  .bg {
@@ -155,6 +141,7 @@ p {
     text-align: center;
     font-size: 30px;
     margin-top: 30%;
+}
 }
 
 @media only screen and (max-width: 540px) {
@@ -173,6 +160,7 @@ p {
     font-size: 20px;
     margin-top: 30%;
 }
+}
 @media only screen and (max-width: 428px) {
  .bg {
     background-image: url(bakgrunn.jpg);
@@ -188,6 +176,7 @@ p {
     text-align: center;
     font-size: 15px;
     margin-top: 50%;
+}
 }
     
 
@@ -207,7 +196,7 @@ p {
     font-size: 15px;
     margin-top: 50%;
 }
-
+}
 @media only screen and (max-width: 375px) {
  .bg {
     background-image: url(bakgrunn.jpg);
@@ -223,6 +212,7 @@ p {
     text-align: center;
     font-size: 105%;
     margin-top: 50%;
+}
 }
     @media only screen and (max-width: 360px) {
  .bg {
@@ -240,7 +230,7 @@ p {
     font-size: 80%;
     margin-top: 50%;
 }
-
+}
 @media only screen and (max-width: 320px) {
  .bg {
     background-image: url(bakgrunn.jpg);
@@ -257,7 +247,7 @@ p {
     font-size: 80%;
     margin-top: 50%;
 }
-    
+}
     @media only screen and (max-width: 280px) {
  .bg {
     background-image: url(bakgrunn.jpg);
@@ -274,4 +264,4 @@ p {
     font-size: 70%;
     margin-top: 50%;
 }
-    
+}
