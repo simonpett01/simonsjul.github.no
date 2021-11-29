@@ -167,7 +167,7 @@ label:hover .door {
     display: grid;
     max-width: 90px;
     margin: 2% auto;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     grid-template-rows: auto;
     grid-gap: 25px;
     
