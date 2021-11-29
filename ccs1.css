@@ -182,11 +182,31 @@ label:hover .door {
                             "d19      d24     d21";
   }
  }
+ @media only screen and (max-width: 812px) {
+  .grid-1 {
+    display: grid;
+    max-width: 90px;
+    margin: 2% auto;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 25px;
+    
+    grid-template-areas:    "t        t       t"
+                            "d23      d20     d12"
+                            "d2       d14     d4"
+                            "d5       d22     d16"
+                            "d1       d7      d9"
+                            "d10      d11     d18"
+                            "d13      d3      d15"
+                            "d6       d17     d8"
+                            "d19      d24     d21";
+  }
+ }
  
  @media only screen and (max-width: 768px) {
   .grid-1 {
     display: grid;
-    max-width: 900px;
+    max-width: 800px;
     margin: 2% auto;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: auto;
