@@ -40,7 +40,9 @@ body, html {
 
 /* media query */
 @media only screen and (min-width: 500px) {
-  
+  body {
+    overflow-x: hidden;
+  }
   .grid-1 {
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: "t     t     t     d2      d7      d8"
@@ -121,6 +123,9 @@ label:hover .door {
     margin-top: 0px;
  }
  @media only screen and (max-width: 1920px) {
+  body {
+    overflow-x: hidden;
+  }
   .grid-1 {
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: "t     t     t     d2      d7      d8"
@@ -132,6 +137,9 @@ label:hover .door {
   }
 }
  @media only screen and (max-width: 1280px) {
+  body {
+    overflow-x: hidden;
+  }
   .grid-1 {
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: "t     t     t     d2      d7      d8"
@@ -144,6 +152,9 @@ label:hover .door {
  }
  
  @media only screen and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
   .grid-1 {
     display: grid;
     max-width: 900px;
@@ -165,6 +176,9 @@ label:hover .door {
 
  }
  @media only screen and (max-width: 884px) {
+  body {
+    overflow-x: hidden;
+  }
   .grid-1 {
     display: grid;
     max-width: 90px;
@@ -185,6 +199,9 @@ label:hover .door {
   }
  }
  @media only screen and (max-width: 812px) {
+  body {
+    overflow-x: hidden;
+  }
   .grid-1 {
     display: grid;
     max-width: 90px;
@@ -206,6 +223,9 @@ label:hover .door {
  }
  
  @media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
   .grid-1 {
     display: grid;
     max-width: 800px;
@@ -227,25 +247,39 @@ label:hover .door {
  }
  
  @media only screen and (max-width: 540px) {
- 
+  body {
+    overflow-x: hidden;
+  }
  }
  @media only screen and (max-width: 428px) {
-
+  body {
+    overflow-x: hidden;
+  }
  }
      
  
  @media only screen and (max-width: 414px) {
-
+  body {
+    overflow-x: hidden;
+  }
  }
  @media only screen and (max-width: 375px) {
-
+  body {
+    overflow-x: hidden;
+  }
  }
      @media only screen and (max-width: 360px) {
-
+      body {
+        overflow-x: hidden;
+      }
  }
  @media only screen and (max-width: 320px) {
- 
+  body {
+    overflow-x: hidden;
+  }
  }
      @media only screen and (max-width: 280px) {
-
+      body {
+        overflow-x: hidden;
+      }
  }
