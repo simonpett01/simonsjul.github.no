@@ -17,6 +17,7 @@ body, html {
 .bg h1 {
     font-size: 35px;
     font-family: 'Fredericka the Great', cursive;
+    color: red;
 }
 .grid-1 {
   display: grid;
