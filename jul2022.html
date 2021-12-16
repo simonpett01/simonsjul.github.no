@@ -1,266 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JULEKALENDER 2021</title>
+    <title>POENGTAVLE</title>
     <link rel="shortcut icon" href="bakgrunn.jpg">
-    <link rel="stylesheet" href="ccs1.css">
+    <link rel="stylesheet" href="css2022.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="knapp"><a href="index.html">TILBAKE</a></div>
     <div id="snowflakeContainer">
   <span class="snowflake"></span>
 </div>
 
-    <div class="bg">
-      <div class="knapp"><a href="#">POENGTAVLE</a></div>
-      <br>
-        <h1>JULEKALENDER 2021</h1>
-        <section class='grid-1'>  
-  <div class='day-1'>
-  <label>
-      <div class='door'>
-        <a class="front"><h1>1.</h1></a>
-      </div>
-  </label>
-</div>
-  <div class='day-2'>
-  <label>
-   
-      <div class='door'>
-        <a class="front"><h1>2.</h1></a>
-        
-      </div>
+ <div class="bg">
+  <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">LOGG INN</button>
+
+  <div id="id01" class="modal">
     
-  </label>
-</div>
-  <div class='day-3'>
-  <label>
- 
-      <div class='door'>
-        <a class="front"><h1>3.</h1></a>
-        
+    <form class="modal-content animate" action="/action_page.php" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="img_avatar2.png" alt="Avatar" class="avatar">
       </div>
-
-  </label>
-</div>
-  <div class='day-4'>
-  <label>
-
-      <div class='door'>
-        <a class="front"><h1>4.</h1></a>
-        
+  
+      <div class="container">
+        <h1>LOGG INN</h1>
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+  
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+          
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
       </div>
-
-  </label>
-</div>
-  <div class='day-5'>
-  <label>
-
-      <div class='door'>
-        <a class='front'><h1>5.</h1></a>
-        
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
       </div>
-
-  </label>
-</div>
-  <div class='day-6'>
-  <label>
-
-      <div class='door'>
-        <a class='front'><h1>6.</h1></a>
-        
-      </div>
-
-  </label>
-</div>
-  <div class='day-7'>
-  <label>
-
-      <div class='door'>
-        <a class='front'><h1>7.</h1></a>
-        
-      </div>
-
-  </label>
-</div>
-  <div class='day-8'>
-  <label>
-
-      <div class='door'>
-        <a class='front'><h1>8.</h1></a>
-        
-      </div>
-
-  </label>
-</div>
-  <div class='day-9'>
-  <label>
-
-      <div class='door'>
-        <a class='front'><h1>9.</h1></a>
-        
-      </div>
-
-  </label>
-</div>
-  <div class='day-10'>
-  <label>
-
-      <div class='door'>
-        <a class='front'><h1>10.</h1></a>
-        
-      </div>
-
-  </label>
-</div>
-  <div class='day-11'>
-  <label>
-
-      <div class='door'>
-        <a class='front'><h1>11.</h1></a>
-        
-      </div>
-
-  </label>
-</div>
-  <div class='day-12'>
-  <label>
-
-      <div class='door'>
-        <a class='front'><h1>12.</h1></a>
-        
-      </div>
-
-  </label>
-</div>
-  <div class='day-13'>
-  <label>
-
-      <div class='door'>
-        <a class='front'><h1>13.</h1></a>
-        
-      </div>
-
-  </label>
-</div>
-  <div class='day-14'>
-  <label>
-
-      <div class='door'>
-        <a class='front' href="https://docs.google.com/forms/d/e/1FAIpQLSct4oD74iUv1M5_t0tq50zCU0HCUsqtWaC1PfRaINcV3xJU5w/viewform?usp=sf_link"><h1>14.</h1></a>
-        
-      </div>
-
-  </label>
-</div>
-  <div class='day-15'>
-  <label>
-
-      <div class='door'>
-        <a class='front' href="https://docs.google.com/forms/d/e/1FAIpQLSeii-JBo7mResFD_qhxcrmbG8BHZ5q1Z1gbJqKx8r64RwJiEQ/viewform?usp=sf_link"><h1>15.</h1></a>
-        
-      </div>
-
-  </label>
-</div>
-  <div class='day-16'>
-  <label>
-
-      <div class='door'>
-        <a class='front' href="https://docs.google.com/forms/d/e/1FAIpQLSdoFKea4qnBbHwPcd6YxcIASsuNJVBT3hTiEGNNGLDVa9Mu2A/viewform?usp=sf_link"><h1>16.</h1></a>
-        
-      </div>
-
-  </label>
-</div>
-  <div class='day-17'>
-  <label>
-
-      <div class='door'>
-        <a class='front'><h1>17.</h1></a>
-        
-      </div>
-
-  </label>
-</div>
-  <div class='day-18'>
-  <label>
-
-      <div class='door'>
-        <a class='front'><h1>18.</h1></a>
-        
-      </div>
-
-  </label>
-</div>
-  <div class='day-19'>
-  <label>
-
-      <div class='door'>
-        <a class='front'><h1>19.</h1></a>
-        
-      </div>
-
-  </label>
-</div>
-  <div class='day-20'>
-  <label>
-
-      <div class='door'>
-        <a class='front'><h1>20.</h1></a>
-        
-      </div>
-
-  </label>
-</div>
-  <div class='day-21'>
-  <label>
-
-      <div class='door'>
-        <a class='front'><h1>21.</h1></a>
-        
-      </div>
-
-  </label>
-</div>
-  <div class='day-22'>
-  <label>
-
-      <div class='door'>
-        <a class='front'><h1>22.</h1></a>
-        
-      </div>
-
-  </label>
-</div>
-  <div class='day-23'>
-  <label>
-
-      <div class='door'>
-        <a class='front'><h1>23.</h1></a>
-        
-      </div>
-
-  </label>
-</div>
-  <div class='day-24'>
-  <label>
-
-      <div class='door'>
-        <a class='front'><h1>24.</h1></a>
-        
-      </div>
-
-  </label>
+    </form>
+  </div>
   
 </div>
-
-</section>
-    
-    
-    
     
     
     <script>
@@ -434,6 +220,18 @@
   function setResetFlag(e) {
     resetPosition = true;
   }
+
+
+
+ // Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
 </script>
 </body>
 </html>
