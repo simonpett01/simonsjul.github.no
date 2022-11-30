@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Adventskalender</title>
+
+	  	<!-- Mobile-friendly viewport -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="index.css" media="all">
+
+	</head>
+	<body>
+		<div class="velkommen">
+		<h1>JULEQUIZ 2022</h1>
+		<p>For å delta i år må du logge inn!</p>
+		<a href="logg1.php">LOGG INN</a>
+		<a href="registrer.php">NY BRUKER?</a>
+</div>
+	</body>
+</html>

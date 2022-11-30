@@ -1,0 +1,33 @@
+/* Styles for the Demo Wrapper */
+html {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  background-image: url("bilder/bk.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.velkommen {
+  padding-top: 6%;
+  text-align: center;
+}
+.velkommen h1 {
+  font-size: 50px;
+  line-height: 0.3;
+}
+.velkommen p {
+  font-size: 50px;
+  line-height: 0.3;
+}
+.velkommen a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  border: 2px solid black;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+}
+.velkommen a:hover {
+  background-color: black;
+  color: white;
+}
